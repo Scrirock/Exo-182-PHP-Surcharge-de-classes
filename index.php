@@ -9,12 +9,15 @@ require "classes/Princesse.php";
 
 // Creation d'une instance de la classe personnage
 $humain = new Personnage();
-$humain->setNom("Votre nom");
+$humain->setNom("Matthias");
 
 // Creation d'une instance de la classe dragon
 $dragon = new Dragon();
-$dragon->setNom("");
+$dragon->setNom("nom de dragon random");
 
+$princesse = new Princesse();
+$princesse->setNom("nom de princesse random");
 
-
+$sorcier = new Sorcier();
+$sorcier->setNom("nom de sorcier random");
 
